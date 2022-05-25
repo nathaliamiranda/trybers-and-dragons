@@ -41,7 +41,7 @@ export default class Character implements Fighter {
   public get defense(): number { return this._defense; }
 
   public get dexterity(): number { return this._dexterity; }
-
+  
   public get energy(): Energy { return { ...this._energy }; }
 
   attack(enemy: Fighter | SimpleFighter): void {
